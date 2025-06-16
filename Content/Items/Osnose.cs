@@ -41,8 +41,8 @@ namespace BroccoliMod.Content.Items
             Osnose = false;
         }
 
-        // Called when the player is hit by an NPC
-        public override void OnHitByNPC(NPC npc, Player.HurtInfo hurtInfo)
+        // Spawn projectiles whenever the player takes any damage
+        public override void OnHurt(Player.HurtInfo info)
         {
             if (Osnose)
             {
@@ -50,37 +50,23 @@ namespace BroccoliMod.Content.Items
             }
         }
 
-        // Called when the player is hit by a projectile
-        public override void OnHitByProjectile(Projectile proj, Player.HurtInfo hurtInfo)
-        {
-            if (Osnose)
-            {
-                SpawnIceBoltRain();
-            }
-        }
-
-        // Spawns a rain of Ice Bolt projectiles above the player
         private void SpawnIceBoltRain()
         {
             for (int i = 0; i < 3; i++)
             {
-                // Random horizontal offset for each bolt
                 float xOffset = Main.rand.NextFloat(-60f, 61f);
-                // Spawn position above the player
                 Vector2 spawnPos = Player.Center + new Vector2(xOffset, -400f);
-                // Downward velocity
                 Vector2 velocity = new Vector2(0, 12f);
-                // Only spawn projectiles for the local player
                 if (Main.myPlayer == Player.whoAmI)
                 {
                     Projectile.NewProjectile(
                         Player.GetSource_Misc("Osnose"),
                         spawnPos,
                         velocity,
-                        ProjectileID.IceBolt, // Projectile type
-                        12,                   // Damage
-                        2f,                   // Knockback
-                        Player.whoAmI         // Owner
+                        ProjectileID.IceBolt,
+                        12,
+                        2f,
+                        Player.whoAmI
                     );
                 }
             }
