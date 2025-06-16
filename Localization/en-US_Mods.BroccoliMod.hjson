@@ -196,4 +196,5 @@ WiiRemoteProj.DisplayName: Wii Remote
 NPCs: {
 	Oslo.DisplayName: Oslo
 	OsloBossBody.DisplayName: Oslo, the Deformed
+	FlumpfBoss.DisplayName: Flumpf Boss
 }

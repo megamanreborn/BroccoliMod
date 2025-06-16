@@ -6,7 +6,7 @@ using BroccoliMod.Content.Dusts;
 using Terraria.GameContent.ItemDropRules;
 using BroccoliMod.Content.Items;
 
-// Ignore how messy this is, I am bad at coding lmao
+//Ignore how messy this is, I am bad at coding lmao
 // I hate it here, but it works for now
 
 namespace BroccoliMod.Content.NPCs.OsloBoss
