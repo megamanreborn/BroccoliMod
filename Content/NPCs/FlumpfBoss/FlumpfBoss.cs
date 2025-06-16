@@ -39,6 +39,11 @@ namespace BroccoliMod.Content.NPCs.FlumpfBoss
 
         public override void AI()
         {
+            // Gradually increase scale as health decreases
+            float healthPercent = (float)NPC.life / NPC.lifeMax;
+            float targetScale = 1.5f + (1f - healthPercent) * 1.0f; // Grows up to 2.5x at 0 HP
+            NPC.scale = MathHelper.Lerp(NPC.scale, targetScale, 0.01f);
+
             Player player = Main.player[NPC.target];
             if (!player.active || player.dead)
             {
@@ -112,7 +117,7 @@ namespace BroccoliMod.Content.NPCs.FlumpfBoss
                             float randomRot = Main.rand.NextFloat(-inaccuracy, inaccuracy);
                             chargeDir = chargeDir.RotatedBy(randomRot);
 
-                            NPC.velocity = chargeDir * 10f;
+                            NPC.velocity = chargeDir * 14f; 
                         }
 
                         // Return to circling after short charge
@@ -135,6 +140,36 @@ namespace BroccoliMod.Content.NPCs.FlumpfBoss
         {
             // Drop loot here
             Item.NewItem(NPC.GetSource_Loot(), NPC.getRect(), ItemID.GoldCoin, 10);
+
+            // Release a lot of Blood dust when he dies
+            int dustAmount = 80;
+            for (int i = 0; i < dustAmount; i++)
+            {
+                Vector2 velocity = new Vector2(Main.rand.NextFloat(-8f, 8f), Main.rand.NextFloat(-8f, 8f));
+                int dust = Dust.NewDust(NPC.position, NPC.width, NPC.height, DustID.Blood, velocity.X, velocity.Y, 100, default, 2.2f);
+                Main.dust[dust].noGravity = true;
+            }
+
+            // Shoot BloodShot projectiles in a circle
+            if (Main.netMode != NetmodeID.MultiplayerClient)
+            {
+                int numProjectiles = 32;
+                float speed = 10f;
+                for (int i = 0; i < numProjectiles; i++)
+                {
+                    float angle = MathHelper.TwoPi * i / numProjectiles;
+                    Vector2 direction = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle));
+                    Projectile.NewProjectile(
+                        NPC.GetSource_Death(),
+                        NPC.Center,
+                        direction * speed,
+                        ProjectileID.BloodShot, // vanilla BloodShot projectile
+                        30,
+                        0f,
+                        Main.myPlayer
+                    );
+                }
+            }
         }
 
         public override void FindFrame(int frameHeight)

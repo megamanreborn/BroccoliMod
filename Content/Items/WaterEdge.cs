@@ -23,7 +23,7 @@ namespace BroccoliMod.Content.Items
             Item.shootSpeed = 6f;
             Item.knockBack = 6;
             Item.value = Item.buyPrice(silver: 167);
-            Item.rare = ItemRarityID.White;
+            Item.rare = ItemRarityID.Green;
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = false;
         }
