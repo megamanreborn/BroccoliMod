@@ -1,0 +1,69 @@
+[b][u]BroccoliMod[/u][/b]
+
+A silly mod that adds extra content to Terraria.
+
+[hr]
+
+[b][u]Features[/u][/b]
+
+[table]
+[tr][th][u]v1.0[/u][/th][/tr]
+[tr][td]
+• Cardboard, paper, and wood pulp materials  
+• Cardboard tool set  
+• Cardboard weapons  
+• Startrick yoyo and Starshot bow (crafted with sky island materials)  
+• Water Edge sword (crafted with Water Bolt + iron/lead)  
+[/td][/tr]
+[tr][th][u]v1.1[/u][/th][/tr]
+[tr][td]
+• Sunplate Arrows  
+• Various new recipes for vanilla items  
+• Oslo Staff (crafted with ice biome materials)  
+[i](As of v1.2, no longer craftable—now drops from Oslo, The Deformed)[/i]  
+[/td][/tr]
+[tr][th][u]v1.1.1[/u][/th][/tr]
+[tr][td]
+• Snowball Blaster (upgraded Snowball Cannon)  
+• Crystal Katana (upgraded Katana)  
+• Jungle's Rage spear (crafted with jungle materials)  
+[/td][/tr]
+[tr][th][u]v1.2[/u][/th][/tr]
+[tr][td]
+• File (used to craft some shortswords)  
+• Ice Shortblade (shortsword version of the Ice Blade, made by filing down an Ice Blade)  
+• The Stinger (poisons enemies, crafted with jungle materials)  
+• Shortfury (shortsword version of Starfury, made by filing down Starfury)  
+• Obsidian Shortsword (inflicts Shadowflame, crafted with Obsidian at a Hellforge)  
+• Fiery Shortsword (shoots a burst of flames, made by filing down a Volcano)  
+• Trumpet magic weapon (crafted with iron/lead)  
+• [b]Oslo enemy[/b] (spawns in the snow biome at night)  
+• [b]Oslo, The Deformed[/b] (Snow Boss, summonable with "Oslo's Snowball" in the Snow biome)  
+• Buffed Oslo Staff (now dropped from Oslo, The Deformed)  
+• Osyo yoyo (dropped from Oslo, The Deformed)  
+• Osbow bow (dropped from Oslo, The Deformed)  
+• Wii Remote rare drop from Oslo, The Deformed
+[/td][/tr]
+[tr][th][u]v1.2.0.1[/u][/th][/tr]
+[tr][td]
+• Oslo, The Deformed Loot Bag for Expert Mode+
+• Oslo, The Deformed Expert+ exclusive item
+• Oslo, The Deformed AI changes to avoid cheese
+• Oslo, The Deformed AI and combat changes for Expert+ to make it harder
+• Mini Edge, a shortsword version of the Night's Edge
+• Joyeuse, a shortsword version of Excalibur
+• Cactus bow
+
+ 
+[/td][/tr]
+[/table]
+
+[hr]
+
+[b][u]To Do[/u][/b] 
+• More shortswords—aiming to add genuine use for them and make them a viable subclass of melee weapons  
+
+[hr]
+
+[b]Code by:[/b] EddieEDT  
+[b]Sprites by:[/b] GeieGET & EddieEDT

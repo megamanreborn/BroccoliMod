@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7I0wPKh7DEc=",
+  "success": true,
+  "projectFilePath": "/home/alex/.local/share/Terraria/tModLoader/ModSources/BroccoliMod/BroccoliMod.csproj",
+  "expectedPackageFiles": [
+    "/home/alex/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

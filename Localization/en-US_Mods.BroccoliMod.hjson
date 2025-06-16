@@ -1,0 +1,199 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	CardboardSword: {
+		DisplayName: Cardboard Sword
+		Tooltip: Surprisingly Sturdy!
+	}
+
+	CardboardPickaxe: {
+		DisplayName: Cardboard Pickaxe
+		Tooltip: ""
+	}
+
+	CardboardAxe: {
+		DisplayName: Cardboard Axe
+		Tooltip: ""
+	}
+
+	CardboardHammer: {
+		DisplayName: Cardboard Hammer
+		Tooltip: ""
+	}
+
+	Cardboard: {
+		DisplayName: Cardboard
+		Tooltip: ""
+	}
+
+	WoodPulp: {
+		DisplayName: Wood Pulp
+		Tooltip: ""
+	}
+
+	CardboardBow: {
+		DisplayName: Cardboard Bow
+		Tooltip: ""
+	}
+
+	Startrick: {
+		DisplayName: Startrick
+		Tooltip: Woah, yo! That's a sick Startrick yoyo, bro!
+	}
+
+	WaterEdge: {
+		DisplayName: Water Edge
+		Tooltip: ""
+	}
+
+	SunplateArrow: {
+		DisplayName: Sunplate Arrow
+		Tooltip: ""
+	}
+
+	Paper: {
+		DisplayName: Paper
+		Tooltip: ""
+	}
+
+	OsloStaff: {
+		DisplayName: Oslo Staff
+		Tooltip: ""
+	}
+
+	Starshot: {
+		DisplayName: Starshot
+		Tooltip: ""
+	}
+
+	SnowballBlaster: {
+		DisplayName: Snowball Blaster
+		Tooltip: ""
+	}
+
+	CrystalKatana: {
+		DisplayName: Crystal Katana
+		Tooltip: ""
+	}
+
+	JunglesRage: {
+		DisplayName: Jungle's Rage
+		Tooltip: The Jungle's Rage, In your hand
+	}
+
+	File: {
+		DisplayName: File
+		Tooltip: ""
+	}
+
+	HellstoneShortsword: {
+		DisplayName: Fiery Shortsword
+		Tooltip: ""
+	}
+
+	ObsidianShortsword: {
+		DisplayName: Obsidian Shortsword
+		Tooltip: ""
+	}
+
+	Shortfury: {
+		DisplayName: Shortfury
+		Tooltip: ""
+	}
+
+	TheStinger: {
+		Tooltip: ""
+		DisplayName: The Stinger
+	}
+
+	Trumpet: {
+		DisplayName: Trumpet
+		Tooltip: ""
+	}
+
+	IceShortblade: {
+		DisplayName: Ice Shortblade
+		Tooltip: ""
+	}
+
+	OsloSummon: {
+		DisplayName: Oslo's Snowball
+		Tooltip: Summons Oslo, The Deformed
+	}
+
+	Osbow: {
+		DisplayName: Osbow
+		Tooltip: Wooden Arrows become Bouncy Carrots
+	}
+
+	Osyo: {
+		DisplayName: Osyo
+		Tooltip: ""
+	}
+
+	WiiRemote: {
+		DisplayName: Wii Remote
+		Tooltip: ""
+	}
+
+	OsloBag: {
+		DisplayName: Treasure Bag (Oslo, the Deformed)
+		Tooltip: Right Click to Open
+	}
+
+	CactusBow: {
+		DisplayName: Cactus Bow
+		Tooltip: ""
+	}
+
+	Osnose: {
+		DisplayName: Osnose
+		Tooltip: Frostburns Enemies When You Are Damaged
+	}
+
+	Joyeuse: {
+		DisplayName: Joyeuse
+		Tooltip: ""
+	}
+
+	MiniEdge: {
+		DisplayName: Mini Edge
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	$parentVal: StartrickProjectile.DisplayName: Startrick
+	HellstoneBlade.DisplayName: Hellstone Blade
+	IceShortbladeProj.DisplayName: Ice Shortblade Proj
+	JunglesRageProjectile.DisplayName: Jungles Rage Projectile
+	ObsidianBlade.DisplayName: Obsidian Blade
+	OsbowArrow.DisplayName: Osbow Arrow
+	OsyoProj.DisplayName: Osyo Proj
+	ShortfuryBlade.DisplayName: Shortfury Blade
+	StartrickProjectile.DisplayName: Startrick Projectile
+	StingerBlade.DisplayName: Stinger Blade
+	SunplateArrowProjectile.DisplayName: Sunplate Arrow Projectile
+	WiiRemoteProj.DisplayName: Wii Remote Proj
+	JoyeuseBlade.DisplayName: Joyeuse Blade
+	MiniEdgeBlade.DisplayName: Mini Edge Blade
+}
+
+SunplateArrowProjectile.DisplayName: Sunplate Arrow
+OsloProjectile.DisplayName: Oslo
+JunglesRageProjectile.DisplayName: Jungles Rage
+HellstoneBlade.DisplayName: Hellstone
+ObsidianBlade.DisplayName: Obsidian
+ShortfuryBlade.DisplayName: Shortfury
+StingerBlade.DisplayName: Stinger
+StarstruckProjectile.DisplayName: Starstruck
+IceShortbladeProj.DisplayName: Ice Shortblade
+CarrotPikeProj.DisplayName: Carrot Pike
+OsbowArrow.DisplayName: Osbow Arrow
+OsyoProj.DisplayName: Osyo
+WiiRemoteProj.DisplayName: Wii Remote
+
+NPCs: {
+	Oslo.DisplayName: Oslo
+	OsloBossBody.DisplayName: Oslo, the Deformed
+}
