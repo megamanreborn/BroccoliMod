@@ -165,6 +165,11 @@ Items: {
 		DisplayName: Flumpf Summon
 		Tooltip: ""
 	}
+
+	FleshBall: {
+		DisplayName: Flesh Ball
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -182,6 +187,7 @@ Projectiles: {
 	WiiRemoteProj.DisplayName: Wii Remote Proj
 	JoyeuseBlade.DisplayName: Joyeuse Blade
 	MiniEdgeBlade.DisplayName: Mini Edge Blade
+	FleshBallProj.DisplayName: Flesh Ball Proj
 }
 
 SunplateArrowProjectile.DisplayName: Sunplate Arrow
