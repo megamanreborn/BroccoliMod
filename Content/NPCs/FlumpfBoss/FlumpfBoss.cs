@@ -90,7 +90,7 @@ namespace BroccoliMod.Content.NPCs.FlumpfBoss
                                 NPC.GetSource_FromAI(),
                                 NPC.Center,
                                 shootDir * 10f,
-                                ProjectileID.RuneBlast,
+                                ProjectileID.BloodShot, // vanilla BloodShot projectile
                                 20,
                                 0f,
                                 Main.myPlayer

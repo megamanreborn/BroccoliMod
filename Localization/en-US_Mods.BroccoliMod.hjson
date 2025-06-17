@@ -160,6 +160,11 @@ Items: {
 		DisplayName: Mini Edge
 		Tooltip: ""
 	}
+
+	FlumpfSummon: {
+		DisplayName: Flumpf Summon
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
