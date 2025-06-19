@@ -194,6 +194,7 @@ Projectiles: {
 	MiniEdgeBlade.DisplayName: Mini Edge Blade
 	FleshBallProj.DisplayName: Flesh Ball Proj
 	DangerDiceProj.DisplayName: Danger Dice Proj
+	DiceShard.DisplayName: Dice Shard
 }
 
 SunplateArrowProjectile.DisplayName: Sunplate Arrow
