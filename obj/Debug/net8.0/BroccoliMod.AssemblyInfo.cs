@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BroccoliMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51e0e10575591efb9e6bf4a3beeae4d4be43f330")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3059989e4a2a94230a52f4968c225399e84c8b5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BroccoliMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BroccoliMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -63,5 +63,14 @@ namespace BroccoliMod.Content.Items
 
             return true;
         }
+
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemID.Lens, 3); // Requires 3 lenses
+            recipe.AddRecipeGroup("BroccoliMod:EvilFlesh", 10); // 10 is the quantity needed
+            recipe.AddTile(TileID.DemonAltar); // Crafted at an Anvil
+            recipe.Register(); // Registers the recipe
+        }
     }
 }

@@ -53,9 +53,11 @@ A silly mod that adds extra content to Terraria.
 • Mini Edge, a shortsword version of the Night's Edge
 • Joyeuse, a shortsword version of Excalibur
 • Cactus bow
-
- 
 [/td][/tr]
+[tr][th][u]v1.2.0.1[/u][/th][/tr]
+[tr][td]
+• Flesh Sack Boss
+• 
 [/table]
 
 [hr]

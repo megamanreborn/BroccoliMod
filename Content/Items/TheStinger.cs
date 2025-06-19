@@ -38,7 +38,7 @@ namespace BroccoliMod.Content.Items
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.Stinger, 3);
             recipe.AddIngredient(ItemID.JungleSpores, 8);
-            recipe.AddIngredient(ItemID.JungleSpores, 2); // Note: duplicate ingredient
+            recipe.AddIngredient(ItemID.Vine, 2); // Note: duplicate ingredient
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }

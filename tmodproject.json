@@ -1,0 +1,7 @@
+{
+  "rootNamespace": "BroccoliMod",
+  "fileMap": {
+    "Content/Projectiles/DangerDiceProj.cs": "BroccoliMod.Content.Projectiles",
+    "Content/Items/DangerDice.cs": "BroccoliMod.Content.Items"
+  }
+}

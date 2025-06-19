@@ -170,6 +170,11 @@ Items: {
 		DisplayName: Flesh Ball
 		Tooltip: ""
 	}
+
+	DangerDice: {
+		DisplayName: Danger Dice
+		Tooltip: Damage Changes Based on Your Roll
+	}
 }
 
 Projectiles: {
@@ -188,6 +193,7 @@ Projectiles: {
 	JoyeuseBlade.DisplayName: Joyeuse Blade
 	MiniEdgeBlade.DisplayName: Mini Edge Blade
 	FleshBallProj.DisplayName: Flesh Ball Proj
+	DangerDiceProj.DisplayName: Danger Dice Proj
 }
 
 SunplateArrowProjectile.DisplayName: Sunplate Arrow

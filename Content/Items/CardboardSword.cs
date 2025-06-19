@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using BroccoliMod.Content.Items;
 
 namespace BroccoliMod.Content.Items
-{ 
+{
     // Defines the CardboardSword item for the mod
     public class CardboardSword : ModItem
     {
@@ -18,7 +18,7 @@ namespace BroccoliMod.Content.Items
             Item.useTime = 20; // Time in frames to use the item
             Item.useAnimation = 20; // Animation duration in frames
             Item.useStyle = ItemUseStyleID.Swing; // Swinging use style
-            Item.knockBack = 6; // Knockback applied on hit
+            Item.knockBack = 6; // Knockback applied on hit 
             Item.value = Item.buyPrice(silver: 15); // Item's value in coins
             Item.rare = ItemRarityID.White; // Rarity color
             Item.UseSound = SoundID.Item1; // Sound played on use
